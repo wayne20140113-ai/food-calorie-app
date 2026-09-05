@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "熱量計算APP",
+    "slug": "food-calorie-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "需要使用相機拍攝食物照片以估算熱量",
+        "NSPhotoLibraryUsageDescription": "需要存取相簿選擇食物照片"
+      }
+    },
+    "android": {
+      "permissions": ["CAMERA", "READ_EXTERNAL_STORAGE"]
+    }
+  }
+}
